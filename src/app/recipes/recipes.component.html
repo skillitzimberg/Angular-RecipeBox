@@ -1,0 +1,8 @@
+<div>
+  <p>This section (recipes.component) will deal with listing/displaying all of the recipes.</p>
+  <ul class="nav nav-tabs">
+    <li class="nav-item" *ngFor="let recipe of allRecipes" (click)="onSelect(recipe)"><a class="nav-link" href="#">{{ recipe.name }}</a></li>
+  </ul>
+</div>
+
+<app-recipe-detail [recipe]="selectedRecipe"></app-recipe-detail>

@@ -1,0 +1,7 @@
+<div *ngIf='recipe'>
+  <p (click)="closeDetail()">close</p>
+  <p>This section (recipe-detail.component) will contain the details of a single recipe.</p>
+  <h2>{{ recipe.name }}</h2>
+  <p>{{ recipe.ingredients }}</p>
+  <p>{{ recipe.instructions }}</p>
+</div>
