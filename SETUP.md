@@ -68,7 +68,7 @@ Angular:
 $ apm install atom-typescript
 ```
 
-Fork the repository from [GitHub](https://github.com/skillitzimberg/ua-clone).  
+Fork the repository from [GitHub](https://github.com/skillitzimberg/Angular-RecipeBox).  
 Clone your forked repository.  
 
 Use your preferred command line/terminal to navigate into the directory:
